@@ -1,7 +1,7 @@
 {
   "AWSEBDockerrunVersion": "1",
   "Image": {
-    "Name": "kochetkovma/allure-server",
+    "Name": "7makes/docker101tutoria",
     "Update": "true"
   },
   "Ports": [
