@@ -73,7 +73,7 @@ jobs:
           RELEASE_VERSION: ${{ env.RELEASE_VERSION }}
           ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
         with:
-          name: kochetkovma/allure-server
+          name: 7makes/docker101tutorial
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           tags: "latest,${{ env.RELEASE_VERSION }}"
