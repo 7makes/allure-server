@@ -3,7 +3,7 @@ services:
   allure-server:
     # For local debug #
     # build: .
-    image: kochetkovma/allure-server:latest
+    image: 7makes/docker101tutoria:latest
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/allure
       SPRING_DATASOURCE_USERNAME: postgres
